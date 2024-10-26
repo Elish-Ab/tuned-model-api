@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 
 # Telegram bot token
-TELEGRAM_BOT_TOKEN = "7570983858:AAGztnSA9jzTVGMaDdr5K1Ts57Io15yiGW0"
+TELEGRAM_BOT_TOKEN = ""
 # Base URL for Telegram API
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
